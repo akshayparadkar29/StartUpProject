@@ -29,10 +29,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
+            "styles": ["./node_modules/bootstrap/dist/css/bootstrap.min.css",
+                      "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.min.js",
+                        "./node_modules/jquery/dist/jquery.min.js",
+                        "./node_modules/popper/index.js"]
           },
           "configurations": {
             "production": {
@@ -100,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "379aae4f-f372-4bdc-8203-a6b7ac56ad26"
   }
 }
